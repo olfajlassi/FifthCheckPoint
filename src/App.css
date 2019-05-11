@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-img {
+  float: left;
+  width:  100px;
+  height: 100px;
+}
+
+.center-screen {
+  justify-content: center;    /*zoom*/
+  align-items: center;
+  text-align: center;
+  display:flex;
+}
+
+.center-screen2 {
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.bg-img {
+  background-image: url('etudiant.jpg');
+  background-position: center;
+  min-height: 30vh;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.App-h1 {
+  color: whitesmoke;
+  margin-left: -65%;
+  position: inherit;
+}
